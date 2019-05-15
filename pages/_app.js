@@ -5,8 +5,11 @@ import { MuiThemeProvider } from '@material-ui/core/styles'
 import { ApolloProvider } from 'react-apollo'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import JssProvider from 'react-jss/lib/JssProvider'
+import { install } from '@material-ui/styles'
 import getPageContext from '../lib/material-ui/getPageContext'
 import withApolloClient from '../lib/graphql/with-apollo-client'
+
+install()
 
 class MyApp extends App {
     constructor(props) {

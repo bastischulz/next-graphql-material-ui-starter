@@ -1,5 +1,6 @@
 import React from 'react'
+import { Typography } from '@material-ui/core'
 
-const Home = () => <h1>Hello World</h1>
+const Home = () => <Typography>Hello World!</Typography>
 
 export default Home
