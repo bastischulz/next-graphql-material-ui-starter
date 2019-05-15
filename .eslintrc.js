@@ -104,7 +104,6 @@ module.exports = {
         ],
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
-            "experimentalDecorators": true,
             "jsx": true
         },
         "no-plusplus": 0,

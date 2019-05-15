@@ -8,8 +8,6 @@ import JssProvider from 'react-jss/lib/JssProvider'
 import getPageContext from '../lib/material-ui/getPageContext'
 import withApolloClient from '../lib/graphql/with-apollo-client'
 
-export default
-@withApolloClient
 class MyApp extends App {
     constructor(props) {
         super(props)
@@ -53,3 +51,5 @@ class MyApp extends App {
         )
     }
 }
+
+export default withApolloClient(MyApp)
